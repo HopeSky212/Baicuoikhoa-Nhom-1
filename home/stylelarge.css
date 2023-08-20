@@ -96,7 +96,7 @@
     align-items: center;
     padding: 10px 10px;
     gap: 10px;
-    margin: 0 300px;
+    margin: 0 100px;
 }
 
 #nav-header-row #nav-header-row-left img {
@@ -130,17 +130,11 @@
 /* KHAI BAO MENU LIST */
 
 #nav-header-row #menu-bars {
-    /* position: fixed; */
-    /* width: 100%;
-    height: 100vh; */
     background-color: white;
-    /* animation: all .3s linear; */
-    /* top: 0; */
-    /* padding-top: 20px; */
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    /* display: block; */
+
 }
 
 #nav-header-row #menu-bars #menu-bars-list {
@@ -161,7 +155,6 @@
 }
 
 #menu-bars #menu-bars-list #gioithieuila {
-    /* padding: 20px 0; */
     font-size: 16px;
     cursor: pointer;
 }
@@ -169,39 +162,38 @@
 #menu-bars #menu-bars-list #chuongtrinhhoc {
     font-size: 16px;
     cursor: pointer;
-    /* padding-bottom: 20px; */
+
 }
 
 #menu-bars #menu-bars-list #cosovatchat {
     font-size: 16px;
     cursor: pointer;
-    /* padding-bottom: 20px; */
+
 }
 
 #menu-bars #menu-bars-list #trungtamdaotao {
     font-size: 16px;
     cursor: pointer;
-    /* padding-bottom: 20px; */
+
 }
 
 #menu-bars #menu-bars-list #ilaverse {
     font-size: 16px;
     cursor: pointer;
-    /* padding-bottom: 20px; */
+
 }
 
 #menu-bars #menu-bars-list #cohoinghenghiep {
     font-size: 16px;
     cursor: pointer;
-    /* padding-bottom: 20px; */
+
 }
 
 #menu-bars #menu-bars-list #dangkyngay {
-    /* border: 1px solid blue; */
     font-size: 14px;
     width: 200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 5px 10px;
     border-radius: 30px;
@@ -223,8 +215,6 @@
 }
 
 #menu-bars #menu-bars-list #dangkyngay:hover #small-item {
-    /* color: white; */
-    /* background-color: red; */
     cursor: pointer;
     transform: scale(40);
 }

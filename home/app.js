@@ -21,7 +21,7 @@ let linkIlaverse = document.getElementById("ilaverse");
 let about = document.getElementById("gioithieuila");
 let career = document.getElementById("cohoinghenghiep-text");
 let signin = document.getElementById("dangkyngay");
-let trungtam = document.getElementById("trungtamdaotao-item");
+let trungtam = document.getElementById("trungtamlink");
 let checkdrop = true;
 
 clickopen.addEventListener("click", () => {

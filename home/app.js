@@ -20,6 +20,8 @@ let duhoc = document.getElementById("duhoc");
 let linkIlaverse = document.getElementById("ilaverse");
 let about = document.getElementById("gioithieuila");
 let career = document.getElementById("cohoinghenghiep-text");
+let signin = document.getElementById("dangkyngay");
+let trungtam = document.getElementById("trungtamdaotao-item");
 let checkdrop = true;
 
 clickopen.addEventListener("click", () => {
@@ -124,4 +126,12 @@ about.addEventListener("click", () => {
 
 career.addEventListener("click", () => {
   window.open("/ila-clone-web/career.html", "_blank");
+});
+
+signin.addEventListener("click", () => {
+  window.open("/signin/index.html", "_blank");
+});
+
+trungtam.addEventListener("click", () => {
+  window.open("/trainingcenter/index.html");
 });

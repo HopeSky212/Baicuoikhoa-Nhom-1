@@ -1,0 +1,148 @@
+
+.career {
+    margin-top: 20px;
+}
+
+.video-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.video-banner .container {
+    width: var(--default-layout-width);
+    position: relative;
+    padding: 0 12px;
+}
+
+.video-banner .container video {
+    width: 100%;
+    max-height: 560px;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.video-banner .container .banner-content {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    max-width: 350px;
+    text-transform: uppercase;
+    z-index: 100;
+    color: #fff;
+    text-shadow: 2px 5px 5px #000 !important;
+}
+
+.video-banner .container .banner-content h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.video-banner .container .banner-content p {
+    
+}
+
+.video-banner .container .banner-content p a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 23px;
+    margin-right: 13px;
+}
+
+.video-banner .container .banner-content p a:hover {
+    text-decoration: underline;
+}
+
+.video-banner .container .banner-content p i {
+    text-shadow: none;
+    font-size: 10px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+.recruitment {
+    display: flex;
+    justify-content: center;
+}
+
+
+.recruitment .container {
+    border-radius: 35px;
+    width: var(--default-layout-width);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #ffeed5;
+    padding: 50px;
+    margin: 25px 0;
+}
+
+
+.recruitment-info h2 {
+    font-size: 36px;
+    margin:  0 0 30px;
+}
+
+.recruitment-info p {
+    margin: 0 0 16px;
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 3px;
+}
+
+
+.recruitment-img img {
+    width: 100%;
+}
+
+
+.be-somebody {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.be-somebody:nth-last-child(1) {
+    margin-bottom: 25px;
+}
+
+
+.be-somebody .bg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.be-somebody .container {
+    top: 10%;
+    left: 5%;
+    position: absolute;
+    width: var(--default-layout-width);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.be-content h2 {
+    font-size: 36px;
+    margin: 0 0 15px;    
+}
+
+.be-content p {
+    font-size: 19px;
+    font-weight: 300;
+    margin: 0 0 16px;
+}
+
+.be-content .btn-register {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 200px;
+}

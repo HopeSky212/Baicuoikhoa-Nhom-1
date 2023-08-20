@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./stylemobile.css" />
+    <link rel="stylesheet" href="./styletablet.css" />
+    <link rel="stylesheet" href="./styledesktop.css" />
+    <link rel="stylesheet" href="./stylelarge.css" />
+  </head>
+  <body>
+    <!-- KHAI BAO HEADER -->
+    <header>
+      <div id="header">
+        <ul id="nav-header">
+          <li id="nav-header-item-search">
+            <form action="" name="searchbox" id="searchbox">
+              <input
+                type="text"
+                value=""
+                id="search-keyword"
+                placeholder="Nhập nội dung cần tìm kiếm"
+              />
+              <button type="submit" id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </li>
+          <li id="nav-header-item-ila">#ILA CONNECT</li>
+          <li id="nav-header-item-ilo">#ILO</li>
+          <li id="nav-header-item-ola">#OLA</li>
+          <li id="nav-header-item-imaths">#IMATHS</li>
+          <li id="nav-header-item-iladuhoc">#ILA DU HỌC</li>
+        </ul>
+      </div>
+      <div id="nav-header-row">
+        <div id="nav-header-row-left">
+          <img src="../home/img/logo-ila.webp" alt="anh ila" />
+        </div>
+        <!-- KHAI BAO PHẦN ẨN / HIỆN -->
+        <div id="menu-bars">
+          <div id="menu-bars-icon">
+            <i class="fa-solid fa-xmark" id="close"></i>
+          </div>
+          <div id="menu-bars-list">
+            <div id="gioithieuila">Giới thiệu ILA</div>
+
+            <!-- KHAI BAO CHUONG TRINH HOC -->
+
+            <div id="chuongtrinhhoc">
+              <div id="chuongtrinhhoc-item">
+                <p>Chương trình học</p>
+                <i class="fa-solid fa-chevron-down" id="dropdown"></i>
+              </div>
+              <div id="drop-content">
+                <div id="drop-content-caocap">
+                  <h4 class="drop-content-text">Tiếng Anh cao cấp</h4>
+                  <div class="drop-content-text">
+                    Tiếng Anh Mầm non (3-6 tuổi)
+                  </div>
+                  <div class="drop-content-text">
+                    Tiếng Anh Tiểu học (6-11 tuổi)
+                  </div>
+                  <div class="drop-content-text">
+                    Tiếng Anh Trung học (11-16 tuổi)
+                  </div>
+                  <div class="drop-content-text">
+                    Tiếng Anh Chuyên ngành (cho người đi làm)
+                  </div>
+                  <div class="drop-content-text">
+                    Tiếng Anh TEAM - IMATHS (4-10 tuổi)
+                  </div>
+                </div>
+                <div id="drop-content-tieuchuan">
+                  <h4 class="drop-content-text">Tiếng Anh tiêu chuẩn</h4>
+                  <div class="drop-content-text">Tiếng Anh OLA (3-16 tuổi)</div>
+                </div>
+                <div id="drop-content-duhoc">
+                  <h4 class="drop-content-text">luyện thi & Du học</h4>
+                  <div class="drop-content-text">Luyện thi IELTS - SAT</div>
+                  <div class="drop-content-text">ILA Du học</div>
+                </div>
+                <div id="drop-content-ilo">
+                  <h4 class="drop-content-text">
+                    Hệ thống mầm non Phần lan ILO (2-6 tuổi)
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div id="cosovatchat">Cơ sở vật chất</div>
+
+            <!-- KHAI BAO TRUNG TAM DAO TAOJ -->
+
+            <div id="trungtamdaotao">
+              <div id="trungtamdaotao-item">
+                <p>Trung tâm đào tạo</p>
+                <i class="fa-solid fa-chevron-down" id="down-address"></i>
+              </div>
+              <div id="local">
+                <div id="hcm">
+                  <h4>HỒ CHÍ MINH</h4>
+                  <ul>
+                    <li>ILA Nguyễn Trãi</li>
+                    <li>ILA Trần Não</li>
+                    <li>ILA Mạc Đĩnh Chi</li>
+                    <li>ILA Hùng Vương</li>
+                  </ul>
+                </div>
+                <div id="hn">
+                  <h4>HÀ NỘI</h4>
+                  <ul>
+                    <li>ILA Aeon Long Biên</li>
+                    <li>ILA Long Biên</li>
+                    <li>ILA Tây Sơn</li>
+                    <li>ILA Times City</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div id="ilaverse">ILAVerse</div>
+            <div id="cohoinghenghiep">
+              <div id="cohoinghenghiep-item">
+                <p id="cohoinghenghiep-text">Cơ hội nghề nghiệp</p>
+                <i class="fa-solid fa-chevron-down" id="down-job"></i>
+              </div>
+            </div>
+            <div id="dangkyngay">
+              <span>ĐĂNG KÝ NGAY</span>
+              <div id="small-item"></div>
+            </div>
+          </div>
+        </div>
+        <div id="nav-header-row-right">
+          <img src="../home/img/en_US.png" alt="chuyen sang tieng anh" />
+          <div id="nav-header-row-right-icon-bars">
+            <i class="fa-solid fa-bars" id="open"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="firstvideo">
+        <video autoplay muted loop id="video">
+          <source
+            src="../home/00. Background-video/homepage-greater-video.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div id="video-content">
+          <div>
+            <h1 class="video-content-heading">GREATER YOU EVERYDAY</h1>
+            <h1 class="video-content-heading">TRƯỞNG THÀNH HƠN MỖI NGÀY</h1>
+          </div>
+          <div class="video-content-paragraph">
+            Đồng hành cũng mỗi học viên để khơi dậy tiềm năng và đam mê trên
+            hành trình học tập trọn đời
+          </div>
+          <div>
+            <div id="video-content-text">
+              <div id="xemvideo">
+                <span>XEM VIDEO</span>
+                <div id="video-content-btn"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="flex-one">
+        <div id="timkhoahoc">
+          <div class="timkhoahoc-text">
+            Tìm các khóa học phù hợp với bạn và giúp con đường học vấn của bạn
+            thành công
+          </div>
+
+          <!-- KHAI BAO DO TUOI HOC -->
+
+          <div id="flex-left">
+            <div id="timkhoahoc-age">
+              <div id="timkhoahoc-age-left">
+                <!-- <i class="fa-regular fa-user"></i> -->
+                <div><i class="fa-regular fa-user"></i> Độ tuổi</div>
+                <!-- <div id="timkhoahoc-right">
+                  <i
+                    class="fa-solid fa-chevron-down"
+                    id="timkhoahoc-icon-hidden"
+                  ></i>
+                </div> -->
+              </div>
+              <div id="timkhoahoc-right">
+                <i class="fa-solid fa-chevron-down" id="timkhoahoc-icon"></i>
+              </div>
+              <div id="timkhoahoc-age-left-content">
+                <div class="timkhoahoc-age-content">3-6 tuổi</div>
+                <div class="timkhoahoc-age-content">6-11 tuổi</div>
+                <div class="timkhoahoc-age-content">11-16 tuổi</div>
+                <div class="timkhoahoc-age-content">Người đi làm</div>
+              </div>
+            </div>
+            <!-- <div id="timkhoahoc-age-left-content">
+              <div class="timkhoahoc-age-content">3-6 tuổi</div>
+              <div class="timkhoahoc-age-content">6-11 tuổi</div>
+              <div class="timkhoahoc-age-content">11-16 tuổi</div>
+              <div class="timkhoahoc-age-content">Người đi làm</div>
+            </div> -->
+            <!-- KHAI BAO CHUONG TRINH HOC -->
+            <div id="timchuongtrinhhoc">
+              <div id="timchuongtrinhhoc-left">
+                <i class="fa-solid fa-book" style="color: #63676e"></i>
+                <div>Chương trình học</div>
+              </div>
+              <div id="timchuongtrinhhoc-right">
+                <i
+                  class="fa-solid fa-chevron-down"
+                  id="timchuongtrinhhoc-icon"
+                ></i>
+              </div>
+              <div id="timchuongtrinhhoc-left-content">
+                <div class="timchuongtrinhhoc-left-content">
+                  Chương trình học
+                </div>
+              </div>
+            </div>
+            <!-- <div id="timchuongtrinhhoc-left-content">
+              <div class="timchuongtrinhhoc-left-content">Chương trình học</div>
+            </div> -->
+            <div id="xemthem">
+              <div id="xemthem-content">
+                <div id="xemthem-text">
+                  <span>Xem Thêm</span>
+                  <div id="xemthem-icon"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="khoahoc-img">
+          <img src="../home/img/axchis5h.png" alt="" />
+        </div>
+      </div>
+
+      <!-- </div> -->
+      <!-- khai bao 3 anh dau -->
+      <div id="grid-container">
+        <div id="jumpstart">
+          <div id="jumpstart-small-img">
+            <div id="jumpstart-img">
+              <!-- <img src="../home/img/tieng-anh-mam-non-3-6-tuoi.webp" alt=""> -->
+              <div id="jumpstart-text">
+                <div id="jumpstart-text-left">JUMPSTART</div>
+                <div id="jumpstart-text-right">
+                  <i class="fa-solid fa-arrow-right" id="arrow-right"></i>
+                  <div id="jumpstart-text-right-item">Khám phá</div>
+                </div>
+              </div>
+            </div>
+            <div id="jumpstart-mamnon">Tiếng anh mầm non (3-6 tuổi)</div>
+          </div>
+          <div id="superjuniors-small-img">
+            <div id="superjuniors-img">
+              <div id="superjuniors-text">
+                <div id="superjuniors-text-left">SUPER JUNIORS</div>
+                <div id="superjuniors-text-right">
+                  <i
+                    class="fa-solid fa-arrow-right"
+                    id="arrow-right-superjuniors"
+                  ></i>
+                  <div id="superjuniors-text-right-item">Khám phá</div>
+                </div>
+              </div>
+            </div>
+            <div id="superjuniors-tieuhoc">Tiếng anh tiểu học (6-11 tuổi)</div>
+          </div>
+          <div id="smartteens-small-img">
+            <div id="smartteens-img">
+              <div id="smartteens-text">
+                <div id="smartteens-text-left">SMART TEENS</div>
+                <div id="smartteens-text-right">
+                  <i
+                    class="fa-solid fa-arrow-right"
+                    id="arrow-right-smartteens"
+                  ></i>
+                  <div id="smartteens-text-right-item">Khám phá</div>
+                </div>
+              </div>
+            </div>
+            <div id="smartteens-trunghoc">Tiếng anh trung học (11-16 tuổi)</div>
+          </div>
+        </div>
+
+        <!-- KHAI BAO 3 ANH NGUOI LON -->
+
+        <div id="duhoc">
+          <div id="duhoc-small-img">
+            <div id="duhoc-img">
+              <div id="duhoc-text">
+                <div id="duhoc-text-left">DU HỌC</div>
+                <div id="duhoc-text-right">
+                  <i class="fa-solid fa-arrow-right" id="arrow-right-duhoc"></i>
+                  <div id="duhoc-text-right-item">Khám phá</div>
+                </div>
+              </div>
+            </div>
+            <div id="duhoc-longterm">Du học ngắn & dài hạn (9-17 tuổi)</div>
+          </div>
+          <div id="examenglish-small-img">
+            <div id="examenglish-img">
+              <div id="examenglish-text">
+                <div id="examenglish-text-left">EXAM ENGLISH</div>
+                <div id="examenglish-text-right">
+                  <i
+                    class="fa-solid fa-arrow-right"
+                    id="arrow-right-examenglish"
+                  ></i>
+                  <div id="examenglish-text-right-item">Khám phá</div>
+                </div>
+              </div>
+            </div>
+            <div id="examenglish-tieuhoc">Khóa học Luyện thi IELTS-SAT</div>
+          </div>
+          <div id="bussiness-small-img">
+            <div id="bussiness-img">
+              <div id="bussiness-text">
+                <div id="bussiness-text-left">BUSSINESS ENGLISH</div>
+                <div id="bussiness-text-right">
+                  <i
+                    class="fa-solid fa-arrow-right"
+                    id="arrow-right-bussiness"
+                  ></i>
+                  <div id="bussiness-text-right-item">Khám phá</div>
+                </div>
+              </div>
+            </div>
+            <div id="bussiness-trunghoc">
+              Tiếng Anh Chuyên ngành (cho người đi làm)
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KHAI BÁO ẢNH TEACHER & STUDENTS -->
+      <div id="teacher-students">
+        <div id="teacher-students-img"></div>
+        <!-- <div id="teacher-student-text">
+          <div id="texttop">Anh ngữ_____xuất sắc</div>
+          <div id="textbot">VỮNG CHẮC KỸ NĂNG</div>
+          <div id="text-btn">HỌC THỬ MIỄN PHÍ</div>
+        </div> -->
+      </div>
+
+      <!-- KHAI BÁO ILAVERSE -->
+      <div id="ilaverse">
+        <h1 id="ilaverse-all-heading">ILAVERSE</h1>
+        <div id="ilaverse-all">
+          <div id="ilaverse-all-text">Xem tất cả</div>
+          <i class="fa-solid fa-arrow-right" id="arrow-right-ilaverse"></i>
+        </div>
+      </div>
+      <!-- KHAI BASO ILAVERSE CONTENT -->
+      <div id="ilaverse-content">
+        Chào mừng bạn đến với thế giới của ILAVerse - nơi bạn có thể tìm thấy
+        tất cả bí quyết học tiếng Anh, mẹo nuôi dạy và chăm sóc con cái… để con
+        trưởng thành hơn mỗi ngày.
+      </div>
+      <div id="ilaverse-flex">
+        <div id="ilaverse-left">
+          <div id="ilaverse-left-img">
+            <img
+              src="https://ila.edu.vn/wp-content/uploads/2023/08/ILA-summer-never-ends-graduation-1.jpg"
+              alt=""
+            />
+          </div>
+          <div id="ilaverse-left-text">
+            <h1 id="ilaverse-left-text-heading">
+              ILA Summer 2023: Mùa hè giúp con tự tin tiếp bước tương lai
+            </h1>
+            <p id="ilaverse-left-text-paragraph">
+              Vừa qua, Tổ chức giáo dục ILA đã tổ chức lễ tốt nghiệp 7 tuần hè
+              đầy ý nghĩa Summer Never Ends 2023 đồng loạt ở 60 trung tâm trên
+              toàn quốc, để lại những dấu ấn trải nghiệm thực tế đáng nhớ cho
+              hàng…
+            </p>
+          </div>
+        </div>
+        <div id="ilaverse-right">
+          <div id="ilaverse-right-flex-top">
+            <div id="ilaverse-right-one">
+              <img
+                src="https://ila.edu.vn/wp-content/uploads/2023/07/ila-thi-hien-tai-tiep-dien-the-present-continuous-1.jpg"
+                alt=""
+              />
+              <h4 id="ilaverse-right-one-text">
+                Thì hiện tại tiếp diễn (Present continuous): Mọi điều cần biết
+              </h4>
+            </div>
+            <div id="ilaverse-right-two">
+              <img
+                src="https://ila.edu.vn/wp-content/uploads/2023/07/ila-qua-khu-cua-tell-1.jpg"
+                alt=""
+              />
+              <h4 id="ilaverse-right-two-text">
+                Quá khứ của tell: V2, V3 của tell và các cụm từ
+              </h4>
+            </div>
+          </div>
+          <div id="ilaverse-right-flex-bottom">
+            <div id="ilaverse-right-three">
+              <img
+                src="https://ila.edu.vn/wp-content/uploads/2023/07/ila-bung-no-mo-hinh-hoc-tap-the-ky-21-voi-hang-loat-trung-tam-anh-ngu-moi-1.jpg"
+                alt=""
+              />
+              <h4 id="ilaverse-right-three-text">
+                Bùng nổ mô hình học tập thế kỷ 21 với hàng loạt trung tâm Anh
+                ngữ mới
+              </h4>
+            </div>
+            <div id="ilaverse-right-four">
+              <img
+                src="https://ila.edu.vn/wp-content/uploads/2023/07/ila-qua-khu-phan-tu-1.jpg"
+                alt=""
+              />
+              <h4 id="ilaverse-right-four-text">
+                Quá khứ phân từ là gì? Cách dùng và bài tập thực hành
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KHAI BAO MULTIMEDIA -->
+
+      <div id="multimedia">
+        <h1 id="multimedia-heading">MULTIMEDIA</h1>
+        <div id="multimedia-flex">
+          <div id="multimedia-left">
+            <div id="multimedia-left-video">
+              <iframe
+                id="video-one"
+                src="https://www.youtube.com/embed/msgvgXzWDMo"
+                title="[IELTS SUCCESS HUB] BÍ KÍP CHINH PHỤC IELTS 8.5 CÙNG NGUYỄN DUY ĐĂNG KHOA"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3 id="multimedia-left-text">
+              Bí kíp chinh phục IELTS 8.5 của Nguyễn Đăng Khoa cùng ILA
+            </h3>
+            <div class="multimedia-left-content">multimedia</div>
+          </div>
+          <div id="multimedia-right">
+            <div id="multimedia-right-flex-one">
+              <div id="multimedia-right-one">
+                <div id="multimedia-right-video-one">
+                  <iframe
+                    id="video-two"
+                    src="https://www.youtube.com/embed/qnu8TTPwvVY"
+                    title="Câu chuyện của Thụy Sĩ và hành trình học tập của bạn tại ILA"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h3 id="multimedia-right-text">
+                  Hành trình cùng ILA đạt 8.0 IELTS của Ong Thuỵ Sĩ
+                </h3>
+                <div class="multimedia-right-content">multimedia</div>
+              </div>
+              <div id="multimedia-right-two">
+                <div id="multimedia-right-video-two">
+                  <iframe
+                    id="video-three"
+                    src="https://www.youtube.com/embed/mFzFGFL9IEM"
+                    title="ILA - Bệ phóng cho ước mơ con bay xa"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h3 id="multimedia-right-two-text">
+                  ILA - Bệ phóng cho ước mơ con bay xa
+                </h3>
+                <div class="multimedia-right-two-content">multimedia</div>
+              </div>
+            </div>
+            <div id="multimedia-right-flex-two">
+              <div id="multimedia-right-three">
+                <div id="multimedia-right-video-three">
+                  <iframe
+                    id="video-four"
+                    src="https://www.youtube.com/embed/Vzni2fpN6Ng"
+                    title="VÌ HỌC SINH CỦA MÌNH, THẦY CÔ CÓ THỂ LÀM ĐƯỢC TẤT CẢ! #OnlyTeachersCan"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h3 id="multimedia-right-three-text">
+                  Vì học sinh của mình, thầy cô có thể làm được tất cả!
+                </h3>
+                <div class="multimedia-right-three-content">multimedia</div>
+              </div>
+              <div id="multimedia-right-four">
+                <div id="multimedia-right-video-four">
+                  <iframe
+                    id="video-five"
+                    src="https://www.youtube.com/embed/vrQuBTZESBM"
+                    title="LỜI NHẮN GỬI CỦA ILA ĐẾN THẾ HỆ TƯƠNG LAI"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h3 id="multimedia-right-four-text">
+                  Lời nhắn gửi của ILA đến thế hệ tương lai
+                </h3>
+                <div class="multimedia-right-four-content">multimedia</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="multimedia-left">
+          <div id="multimedia-left-video">
+            <iframe
+              id="video-one"
+              src="https://www.youtube.com/embed/msgvgXzWDMo"
+              title="[IELTS SUCCESS HUB] BÍ KÍP CHINH PHỤC IELTS 8.5 CÙNG NGUYỄN DUY ĐĂNG KHOA"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <h3 id="multimedia-left-text">
+            Bí kíp chinh phục IELTS 8.5 của Nguyễn Đăng Khoa cùng ILA
+          </h3>
+          <div class="multimedia-left-content">multimedia</div>
+        </div>
+        <div id="multimedia-right">
+          <div id="multimedia-right-one">
+            <div id="multimedia-right-video-one">
+              <iframe
+                id="video-two"
+                src="https://www.youtube.com/embed/qnu8TTPwvVY"
+                title="Câu chuyện của Thụy Sĩ và hành trình học tập của bạn tại ILA"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3 id="multimedia-right-text">
+              Hành trình cùng ILA đạt 8.0 IELTS của Ong Thuỵ Sĩ
+            </h3>
+            <div class="multimedia-right-content">multimedia</div>
+          </div>
+          <div id="multimedia-right-two">
+            <div id="multimedia-right-video-two">
+              <iframe
+                id="video-three"
+                src="https://www.youtube.com/embed/mFzFGFL9IEM"
+                title="ILA - Bệ phóng cho ước mơ con bay xa"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3 id="multimedia-right-two-text">
+              ILA - Bệ phóng cho ước mơ con bay xa
+            </h3>
+            <div class="multimedia-right-two-content">multimedia</div>
+          </div>
+          <div id="multimedia-right-three">
+            <div id="multimedia-right-video-three">
+              <iframe
+                id="video-four"
+                src="https://www.youtube.com/embed/Vzni2fpN6Ng"
+                title="VÌ HỌC SINH CỦA MÌNH, THẦY CÔ CÓ THỂ LÀM ĐƯỢC TẤT CẢ! #OnlyTeachersCan"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3 id="multimedia-right-three-text">
+              Vì học sinh của mình, thầy cô có thể làm được tất cả!
+            </h3>
+            <div class="multimedia-right-three-content">multimedia</div>
+          </div>
+          <div id="multimedia-right-four">
+            <div id="multimedia-right-video-four">
+              <iframe
+                id="video-five"
+                src="https://www.youtube.com/embed/vrQuBTZESBM"
+                title="LỜI NHẮN GỬI CỦA ILA ĐẾN THẾ HỆ TƯƠNG LAI"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3 id="multimedia-right-four-text">
+              Lời nhắn gửi của ILA đến thế hệ tương lai
+            </h3>
+            <div class="multimedia-right-four-content">multimedia</div>
+          </div>
+        </div> -->
+      </div>
+
+      <!-- KHAI BAO SLIDE IMG -->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="../home/img/center-1.webp" alt="" />
+        </div>
+        <div class="mySlides fade">
+          <img src="../home/img/center-5.webp" alt="" />
+        </div>
+        <div class="mySlides fade">
+          <img src="../home/img/center-6.webp" alt="" />
+        </div>
+        <div class="mySlides fade">
+          <img src="../home/img/center-4.webp" alt="" />
+        </div>
+        <div class="mySlides fade">
+          <img src="../home/img/center-3.webp" alt="" />
+        </div>
+        <div class="mySlides fade">
+          <img src="../home/img/center-2.webp" alt="" />
+        </div>
+        <a class="prev" onclick="plusSlides(-1)"><</a>
+        <a class="next" onclick="plusSlides(1)">></a>
+      </div>
+      <br />
+      <h1 class="slide-heading">Không gian học tập chuẩn quốc tế tại ILA</h1>
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+
+      <!-- KHAI BAO BAN DO -->
+      <div id="map">
+        <!-- <img src="https://ila.edu.vn/wp-content/uploads/2023/07/map-default.png" alt=""> -->
+      </div>
+      <!-- KHAI BAO PHAN THAN CUOI -->
+      <div id="last-main">
+        <div id="last-main-top">
+          <div id="last-main-one">
+            <div id="last-main-one-img">
+              <img src="../home/img/logo-ila.webp" alt="" />
+            </div>
+            <div id="last-main-one-content">
+              Hệ thống giáo dục và đào tạo Anh ngữ hàng đầu Việt Nam với chương
+              trình giảng dạy cùng các dịch vụ giáo dục theo tiêu chuẩn quốc tế.
+            </div>
+            <div id="last-main-icon">
+              <img
+                src="https://ila.edu.vn/wp-content/uploads/2023/02/logo-youtube.png"
+                alt=""
+              />
+              <img
+                src="https://ila.edu.vn/wp-content/uploads/2023/02/logo-fb.png"
+                alt=""
+              />
+              <img
+                src="https://ila.edu.vn/wp-content/uploads/2023/02/logo-insta.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div id="last-main-two">
+            <h1 id="last-main-two-heading">Tiếng Anh cao cấp</h1>
+            <div class="last-main-text">Tiếng Anh Mầm non (3-6 tuổi)</div>
+            <div class="last-main-text">Tiếng Anh Tiểu học (6-11 tuổi)</div>
+            <div class="last-main-text">Tiếng Anh Trung học (11-16 tuổi)</div>
+            <div class="last-main-text">
+              Tiếng Anh Chuyên ngành (cho người đi làm)
+            </div>
+            <div class="last-main-text">
+              Tiếng Anh STEAM - IMATHS (4-10 tuổi)
+            </div>
+          </div>
+        </div>
+        <div id="last-main-bottom">
+          <div id="last-main-three">
+            <h1 class="last-main-three-heading">Tiếng Anh tiêu chuẩn</h1>
+            <div class="last-main-text">Tiếng Anh OLA (3-16 tuổi)</div>
+            <h1 class="last-main-three-heading">Luyện thi & Du học</h1>
+            <div class="last-main-text">Luyện thi IELTS và SAT</div>
+            <div class="last-main-text">ILA Du học</div>
+            <h1 class="last-main-three-heading">
+              HỆ THỐNG MẦM NON PHẦN LAN ILO (2-6 TUỔI)
+            </h1>
+          </div>
+          <div id="last-main-four">
+            <h1 class="last-main-three-heading">Tìm hiểu thêm</h1>
+            <div class="last-main-text">Giới thiệu ILA</div>
+            <div class="last-main-text">Trung tâm đào tạo</div>
+            <div class="last-main-text">ILAVerse</div>
+            <div class="last-main-text">Liên hệ</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-one">© Copyright 2022 ILA. All rights reserved.</div>
+      <div class="footer-two">
+        Công ty TNHH ILA Việt Nam, GCN đăng ký đầu tư số 411043000734 ngày cấp
+        08/09/2017 nơi cấp Sở Kế Hoạch & Đầu Tư TP.HCM.
+      </div>
+      <div class="footer-two">
+        Trụ sở chính: 146 Nguyễn Đình Chiểu, Phường Võ Thị Sáu, Quận 03, TP Hồ
+        Chí Minh.
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

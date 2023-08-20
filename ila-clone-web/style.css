@@ -1,0 +1,17 @@
+:root {
+    --default-layout-width: 1256px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 200vh;
+}

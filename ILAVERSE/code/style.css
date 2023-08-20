@@ -1,0 +1,718 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+
+/* MAIN HEADER */
+
+/* MAIN HEADER 1 */
+
+body {
+    color: white;
+}
+
+header.main-header .nav-header-top{
+    background: #5c6573;
+    padding: 15px 0;
+}
+
+header.main-header .nav-header-top .container ul.nav-header-flex {
+    list-style-type: none;
+    text-align: right;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+header.main-header .nav-header-top .container ul.nav-header-flex li{
+    display: inline-block;
+    padding: 5px 16px;
+    border-radius: 70px;
+    background-color: #727f97;
+    transition: 1s ease;
+    margin-left: 15px;
+}
+
+/* MAIN HEADER 2 */
+
+header.main-header .nav-main-menu .container .navbar-menu .menu-icon-close{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header.main-header .nav-main-menu {
+    background: #fff;
+    backdrop-filter: blur(4px);
+    padding: 15px 0;
+    box-shadow: 0 0 4px 0 rgba(179,179,179,.5);
+}
+
+.container {
+    max-width: 1280px !important;
+}
+
+
+
+header.main-header .nav-header-top .container .menu-bar .custom-logo-link img{
+    padding-left: 30px;
+    padding-top: 30px;
+    /* max-height: 40px; */
+    width: auto;
+    display: inline-block;
+}
+
+header.main-header .nav-main-menu .container .navbar-menu a {
+    float: left;
+    font-size: 15px;
+    color: #111;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: "Montserrat SemiBold",sans-serif;
+}
+
+/* [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+} */
+
+button, select {
+    text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+header.main-header .nav-main-menu .container .navbar-menu button.btn-register {
+    border: none;
+    background: #2b378b;
+    border-radius: 50px;
+    width: 200px;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+header.main-header .nav-main-menu .container .navbar-menu button.btn-register a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat Bold",sans-serif;
+    padding: 12px 25px;
+}
+
+header.main-header .nav-main-menu .container .navbar-menu button.btn-register a:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #c60c30;
+    position: absolute;
+    border-radius: 50%;
+    right: 25px;
+    top: 18px;
+}
+/* MAIN HEADER 2 */
+
+
+main .section-menu-category {
+    padding: 20px 100px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+main .section-menu-category .container .list-cate ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .section-menu-category .container .list-cate ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: "Montserrat Regular";
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000;
+    padding-right: 40px;
+    border-right: 1px solid #000;
+}
+
+/* BODY MAIN */
+
+/* ILAverse Heading */
+
+#ilaverse {
+    background-color: #97ccf2;
+    padding: 15px;
+    margin: 0px 30px;
+}
+
+#ilaverse-heading {
+    color: white;
+    padding: 15px;
+}
+
+#ilaverse-paragraph {
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/* ILAverse Content 1 */
+
+/* ILAverse Content 1 LEFT */
+
+#ilaverse-content-1{
+    display: flex;
+    /* justify-content: flex-start;
+    align-items: center; */
+    /* gap: 20px; */
+    /* padding: 10px 10px; */
+}
+
+#ilaverse-content-1 #ilaverse-content-1-left-img img {
+    width: 600px; 
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 50px;   
+    border-radius: 10px;
+}
+
+#ilaverse-content-1 #ilaverse-content-1-left-text a{
+    margin-left: 50px;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat Bold";
+}
+
+#ilaverse-content-1 #ilaverse-content-1-left-link {
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+#ilaverse-content-1 #ilaverse-content-1-left-link a {
+    color: #2b378b;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+#ilaverse-content-1 #ilaverse-content-1-left #ilaverse-content-1-left-description p {
+    color: #000;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* ILAverse Content 1 CENTER */
+
+#ilaverse-content-1 #ilaverse-content-1-center-flex-top-img img {
+    width: 300px; 
+    height: 199px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#ilaverse-content-1 #ilaverse-content-1-center-flex-top-content-title h3 a{
+    text-decoration: none;
+    color: #000;
+}
+
+#ilaverse-content-1 #ilaverse-content-1-center-flex-top-content-link a{
+    text-decoration: none;
+    color: #2b378b;
+    margin-top: 30px;
+    display: block;
+}
+
+#ilaverse-content-1 #ilaverse-content-1-center-flex-bottom-img img{
+    width: 300px; 
+    height: 199px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#ilaverse-content-1 #ilaverse-content-1-center-flex-bottom-content-title h3 a{
+    text-decoration: none;
+    color: #000;
+}
+
+#ilaverse-content-1 #ilaverse-content-1-center-flex-bottom-content-link a{
+    text-decoration: none;
+    color: #2b378b;
+    margin-top: 30px;
+    display: block;
+}
+
+/* ILAverse Content 1 RIGHT */
+
+h1 {
+    margin-top: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-text-header{
+    margin-bottom: ;
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item1 {
+    display: flex;
+    gap: 20px;
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item1-img img{
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item1-content a{
+    color: #000;
+    text-decoration: none;
+    padding: 0px 5px; 
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item2 {
+    display: flex;
+    gap: 20px;
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item2-img img{
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item2-content a{
+    color: #000;
+    text-decoration: none;
+    padding: 0px 5px; 
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item3 {
+    display: flex;
+    gap: 20px;
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item3-img img{
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item3-content a{
+    color: #000;
+    text-decoration: none;
+    padding: 0px 5px; 
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item4 {
+    display: flex;
+    gap: 20px;
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item4-img img{
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+#ilaverse-content-1-right #ilaverse-content-1-right-post-item4-content a{
+    color: #000;
+    text-decoration: none;
+    padding: 0px 5px; 
+}
+
+/* ILAverse Content 2 */
+
+
+#ilaverse-content-2 #ilaverse-content-2-banner-img{
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    padding: 0 30px;
+    margin-top: 30px;
+}
+
+/* ILAverse Content 3 */
+
+#box-flex {
+    display: flex;
+    gap: 90px;
+    /* justify-content: space-between; */
+    margin-top: 30px;
+    padding: 0 30px;
+}
+
+
+/* ILAverse Content 3 - Left */
+
+
+main #ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-heading{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    border-bottom: 3px solid #d6d6d6;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-heading #ilaverse-content-3-left-blog-heading-name {
+    font-family: "Montserrat Bold";
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-heading a {
+    display: block;
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-heading a #arrow-right{
+    color: black;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-thumbnail img{
+    width: 428px;
+    height: 287px;
+    border-radius: 5px;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-title{
+    font-family: "Montserrat Bold";
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-title a{
+    text-decoration: none;
+    color: black;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-archive {
+    margin: 10px 0;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-archive a {
+    position: relative;
+    display: block;
+    font-family: "Montserrat Medium";
+    font-size: 18px;
+    line-height: 22px;
+    color: #2b378b;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-archive a::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fdb510;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-post #ilaverse-content-3-left-blog-post-1{
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    padding: 10px 0;
+    border-top: 1px solid #d6d6d6;
+    margin-bottom: 0;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-post #ilaverse-content-3-left-blog-post-1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-post #ilaverse-content-3-left-blog-post-2{
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    padding: 10px 0;
+    border-top: 1px solid #d6d6d6;
+    margin-bottom: 0;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-left-blog #ilaverse-content-3-left-blog-post #ilaverse-content-3-left-blog-post-2 a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ILAverse Content 3 - Center */
+
+main #ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-heading{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    border-bottom: 3px solid #d6d6d6;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-heading #ilaverse-content-3-center-blog-heading-name {
+    font-family: "Montserrat Bold";
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-heading a {
+    display: block;
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-heading a #arrow-right{
+    color: black;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-thumbnail img{
+    width: 428px;
+    height: 287px;
+    border-radius: 5px;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-title{
+    font-family: "Montserrat Bold";
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-title a{
+    text-decoration: none;
+    color: black;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-archive {
+    margin: 10px 0;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-archive a {
+    position: relative;
+    display: block;
+    font-family: "Montserrat Medium";
+    font-size: 18px;
+    line-height: 22px;
+    color: #2b378b;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-archive a::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fdb510;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-post #ilaverse-content-3-center-blog-post-1{
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    padding: 10px 0;
+    border-top: 1px solid #d6d6d6;
+    margin-bottom: 0;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-post #ilaverse-content-3-center-blog-post-1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-post #ilaverse-content-3-center-blog-post-2{
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    padding: 10px 0;
+    border-top: 1px solid #d6d6d6;
+    margin-bottom: 0;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-center-blog #ilaverse-content-3-center-blog-post #ilaverse-content-3-center-blog-post-2 a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ILAverse Content 3 - Right */
+
+main #ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-heading{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    border-bottom: 3px solid #d6d6d6;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-heading #ilaverse-content-3-right-blog-heading-name {
+    font-family: "Montserrat Bold";
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-heading a {
+    display: block;
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-heading a #arrow-right{
+    color: black;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-thumbnail img{
+    width: 428px;
+    height: 287px;
+    border-radius: 5px;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-title{
+    font-family: "Montserrat Bold";
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-title a{
+    text-decoration: none;
+    color: black;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-archive {
+    margin: 10px 0;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-archive a {
+    position: relative;
+    display: block;
+    font-family: "Montserrat Medium";
+    font-size: 18px;
+    line-height: 22px;
+    color: #2b378b;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-archive a::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fdb510;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-post #ilaverse-content-3-right-blog-post-1{
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    padding: 10px 0;
+    border-top: 1px solid #d6d6d6;
+    margin-bottom: 0;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-post #ilaverse-content-3-right-blog-post-1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-post #ilaverse-content-3-right-blog-post-2{
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    padding: 10px 0;
+    border-top: 1px solid #d6d6d6;
+    margin-bottom: 0;
+}
+
+#ilaverse-content-3 #ilaverse-content-3-right-blog #ilaverse-content-3-right-blog-post #ilaverse-content-3-right-blog-post-2 a{
+    text-decoration: none;
+    color: black;
+}
+
+/* FOOTER */
+
+footer #footer-one {
+    color: #000;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5px;
+    border-top: 1px solid grey;
+    margin: 10px;
+}
+
+footer .footer-two {
+    color: #000;
+    font-family: "Montserrat Regular";
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 5px;
+}
